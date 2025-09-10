@@ -19,9 +19,9 @@ jobs:
       uses: microsoft/setup-msbuild@v2
       
     - name: Setup CMake
-      uses: cmake-js/cmake-js@main
+      uses: jwlawson/actions-setup-cmake@v2
       with:
-        cmake-version: '3.21.0'
+        cmake-version: '3.25.0'
     
     - name: Create build directory
       run: mkdir build
