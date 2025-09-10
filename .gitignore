@@ -1,0 +1,26 @@
+# Build directories
+build/
+Release/
+Debug/
+
+# Visual Studio files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.pdb
+*.ilk
+
+# Compiled files
+*.obj
+*.lib
+*.exp
+
+# macOS files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
