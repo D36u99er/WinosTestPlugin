@@ -4,7 +4,7 @@ project(WinosTestPlugin)
 set(CMAKE_CXX_STANDARD 17)
 
 # Create the DLL
-add_library(WinosTestPlugin SHARED WinosTestPlugin.cpp)
+add_library(WinosTestPlugin SHARED WinosTestPlugin.cpp WinosTestPlugin.def)
 
 # Windows specific settings
 if(WIN32)

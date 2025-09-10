@@ -1,0 +1,5 @@
+EXPORTS
+GetId @1
+GetGroup @2  
+Init @3
+UnInit @4
