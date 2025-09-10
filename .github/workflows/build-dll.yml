@@ -38,8 +38,10 @@ jobs:
         
     - name: Direct compilation (backup method)
       run: |
+        call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Auxiliary\Build\vcvars64.bat"
         cl.exe /LD /Fe:WinosTestPlugin_direct.dll WinosTestPlugin.cpp user32.lib
       shell: cmd
+      continue-on-error: true
       
     - name: List generated files
       run: |
