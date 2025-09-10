@@ -3,6 +3,7 @@ name: Build Windows DLL
 on:
   push:
     branches: [ main, master ]
+    tags: [ 'v*' ]  # 监听版本标签
   pull_request:
     branches: [ main, master ]
   workflow_dispatch:  # 允许手动触发
